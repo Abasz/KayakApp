@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?><!DOCTYPE drawable [
+    <!ENTITY LineThickness "2">
+<!ENTITY LineColor "Gfx.COLOR_BLUE"> 
+]>
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <drawable-list id="BorderLines">
+        <shape type="rectangle" x="0" y="31" width="fill" height="&LineThickness;" color="&LineColor;" />
+        <shape type="rectangle" x="0" y="94" width="fill" height="&LineThickness;" color="&LineColor;" />
+        <shape type="rectangle" x="0" y="151" width="fill" height="&LineThickness;" color="&LineColor;" />
+        <shape type="rectangle" x="0" y="209" width="fill" height="&LineThickness;" color="&LineColor;" />
+        <shape type="rectangle" x="73" y="32" width="&LineThickness;" height="63" color="&LineColor;" />
+        <shape type="rectangle" x="165" y="32" width="&LineThickness;" height="63" color="&LineColor;" />
+        <shape type="rectangle" x="143" y="96" width="&LineThickness;" height="56" color="&LineColor;" />
+        <shape type="rectangle" x="119" y="153" width="&LineThickness;" height="56" color="&LineColor;" />
+    </drawable-list>
+</drawables>
+
+<!-- dc.drawLine(74, 33, 74, 95);
+        dc.drawLine(166, 33, 166, 95);
+        dc.drawLine(144, 97, 144, 152);
+        dc.drawLine(120, 154, 120, 209); -->

@@ -1,0 +1,10 @@
+<fitContributions>
+        <fitField id="1" displayInChart="true" displayInActivityLaps="false" sortOrder = "0" precision="0" chartTitle="@Strings.stroke_rate_graph_label" dataLabel="@Strings.stroke_rate_label" unitLabel="@Strings.stroke_rate_units" fillColor="#f09126" />
+
+        <fitField id="2" displayInChart="false" displayInActivitySummary="true" displayInActivityLaps="true" sortOrder="0" precision="0" dataLabel="@Strings.avg_stroke_rate" unitLabel="@Strings.stroke_rate_units" />
+
+        <fitField id="3" displayInChart="false" displayInActivitySummary="true" displayInActivityLaps="false" sortOrder="0" precision="0" dataLabel="@Strings.total_stroke_count" unitLabel="@Strings.total_stroke_count_units" />
+
+        <fitField id="4" displayInChart="false" displayInActivitySummary="true" displayInActivityLaps="true" sortOrder="0" precision="0" dataLabel="@Strings.avg_stroke_rate" unitLabel="@Strings.stroke_rate_units" />
+
+</fitContributions>

@@ -1,0 +1,23 @@
+<strings>
+    <string id="AppName">Kayak</string>
+
+    <string id="exit_menu_label_1">Resume</string>
+    <string id="exit_menu_label_2">Save</string>
+    <string id="exit_menu_label_3">Discard</string>
+
+    <string id="discard_menu_label_1">No</string>
+    <string id="discard_menu_label_2">Yes</string>
+
+    <string id="stroke_rate_label">Stroke Rate</string>
+    <string id="stroke_rate_graph_label">Stroke Rate</string>
+    <string id="stroke_rate_units">spm</string>
+    <string id="avg_stroke_rate">Avg Stroke Rate</string>
+    <string id="total_stroke_count">Total Strokes</string>
+    <string id="total_stroke_count_units">strokes</string>
+
+    <string id="total_distance_label">DIST</string>
+    <string id="timer_label">TIMER</string>
+    <string id="lap_time">LAP TIME</string>
+    <string id="gps_label">GPS</string>
+</strings>
+

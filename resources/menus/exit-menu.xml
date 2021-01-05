@@ -1,0 +1,5 @@
+<menu2 id="ExitMenu" title="Exit menu">
+    <menu-item id="resume" label="@Strings.exit_menu_label_1"/>
+    <menu-item id="save" label="@Strings.exit_menu_label_2"/>
+    <menu-item id="discard" label="@Strings.exit_menu_label_3"/>
+</menu2>

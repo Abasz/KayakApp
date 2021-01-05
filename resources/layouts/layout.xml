@@ -1,0 +1,51 @@
+<layout id="MainLayout">
+    <drawable id="Background" class="BackgroundDrawable"/>
+
+    <drawable id="BatterySign" class="BatterySignDrawable">
+        <param name="locX">84</param>
+        <param name="locY">217</param>
+        <param name="width">25</param>
+        <param name="height">10</param>
+        <param name="positiveSideWidth">4</param>
+        <param name="positiveSideHeight">6</param>
+    </drawable>
+
+    <drawable id="BorderLines"/>
+
+    <drawable id="CadenceSquare" class="ColoredSquareDrawable">
+        <param name="locX">167</param>
+        <param name="locY">33</param>
+        <param name="width">73</param>
+        <param name="height">22</param>
+    </drawable>
+    <label id="CadenceLabel" x="172" y="30" font="Gfx.FONT_XTINY" text="STRK" justification="Gfx.TEXT_JUSTIFY_LEFT"/>
+    <label id="CadenceValue" x="197" y="56" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <drawable id="HeartRateSquare" class="ColoredSquareDrawable">
+        <param name="locX">0</param>
+        <param name="locY">33</param>
+        <param name="width">73</param>
+        <param name="height">22</param>
+    </drawable>
+    <label id="HeartRateLabel" x="66" y="30" font="Gfx.FONT_XTINY" text="HR" justification="Gfx.TEXT_JUSTIFY_RIGHT"/>
+    <label id="HeartRateValue" x="43" y="56" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="TimeOfDayValue" x="center" y="2" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="SpeedLabel" x="center" y="30" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+    <label id="SpeedValue" x="center" y="56" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="TotalDistanceValue" x="190" y="96" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+    <label id="TotalDistanceLabel" x="190" y="128" font="Gfx.FONT_XTINY" text="@Strings.total_distance_label" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="TimerValue" x="74" y="96" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+    <label id="TimerLabel" x="74" y="128" font="Gfx.FONT_XTINY" text="@Strings.timer_label" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="AvgLapSpeedValue" x="74" y="153" font="Gfx.FONT_NUMBER_MEDIUM" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+    <label id="AvgLapSpeedLabel" x="74" y="185" font="Gfx.FONT_XTINY" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="LapTimeValue" x="172" y="158" font="Gfx.FONT_NUMBER_MILD" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+    <label id="LapTimeLabel" x="172" y="180" font="Gfx.FONT_XTINY" text="@Strings.lap_time" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+
+    <label id="GpsLabel" x="140" y="210" font="Gfx.FONT_XTINY" text="@Strings.gps_label" justification="Gfx.TEXT_JUSTIFY_CENTER"/>
+</layout>
